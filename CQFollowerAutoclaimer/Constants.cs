@@ -26,7 +26,8 @@ namespace CQFollowerAutoclaimer
         };
 
         public static string[] names = {
-            "mother", "murphy", "bortles", "thumper", "daisy", "gizmo", "willow", "adybbuk", "aedana", "ajade", "amahatma",
+            "awanderer", "minerva", "helga", "ophelia", "agatha", "anerissa",
+			"mother", "murphy", "bortles", "thumper", "daisy", "gizmo", "willow", "adybbuk", "aedana", "ajade", "amahatma",
             "spike", "riptide", "ember", "cloud", "b-day", "thewanderer", "maunder", "transient", "cupid", "aurora", "orin", "flint", "blossom",
             "aseethe", "seethe", "ruin", "raze", "kedari", "5-12-6", "fir", "frosty", "maraudermagnus", "corsaircharles", "buccaneerbeatrice", "raiderrose",
             "adefile", "guy", "cliodhna", "sanqueen", "billy", "doyenne", "ahattori", "ahirate", "atakeda", "ahosokawa",
@@ -44,6 +45,9 @@ namespace CQFollowerAutoclaimer
             "A13", "E13", "F13", "W13", "A14", "E14", "F14", "W14", "A15", "E15", "F15", "W15", "A16", "E16", "F16", "W16", "A17", "E17", "F17", "W17", "A18", "E18", "F18", "W18",
             "A19", "E19", "F19", "W19", "A20", "E20", "F20", "W20", "A21", "E21", "F21", "W21", "A22", "E22", "F22", "W22", "A23", "E23", "F23", "W23", "A24", "E24", "F24", "W24",
             "A25" ,"E25", "F25", "W25", "A26", "E26", "F26", "W26", "A27", "E27", "F27", "W27", "A28", "E28", "F28", "W28", "A29", "E29", "F29", "W29", "A30", "E30", "F30", "W30",
+			"A31", "E31", "F31", "W31", "A32", "E32", "F32", "W32", "A33", "E33", "F33", "W33", "A34", "E34", "F34", "W34", "A35", "E35", "F35", "W35", "A36", "E36", "F36", "W36",
+			"A37", "E37", "F37", "W37", "A38", "E38", "F38", "W38", "A39", "E39", "F39", "W39", "A40", "E40", "F40", "W40", "A41", "E41", "F41", "W41", "A42", "E42", "F42", "W42",
+			"A43", "E43", "F43", "W43", "A44", "E44", "F44", "W44", "A45", "E45", "F45", "W45", 
         };
 
         public static int heroesInGame = Array.IndexOf(names, "ladyoftwilight") + 2;
@@ -58,7 +62,8 @@ namespace CQFollowerAutoclaimer
             "Mahatma", "Jade", "Edana", "Dybbuk", "Ashygu", "Athert", "Alordkirk", "Aneptunius", "Ahosokawa", "Atakeda", "Ahirate", "Ahattori", "Doyenne",
             "Billy", "Sanqueen", "Cliodhna", "Guy", "Adefile", "Raiderrose", "Buccaneerbeatrice", "Corsaircharles","Maraudermagnus", "Frosty", "Fir", "5-12-6", "Kedari",
             "Raze", "Ruin", "Seethe", "Aseethe", "Blossom", "Flint", "Orin", "Aurora", "Cupid", "Transient", "Maunder", "Thewanderer", "B-day", "Cloud", "Ember", "Riptide", "Spike", 
-            "Amahatma", "Ajade", "Aedana", "Adybbuk", "Willow", "Gizmo", "Daisy", "Thumper", "Bortles", "Murphy", "Nerissa", "Mother",
+            "Amahatma", "Ajade", "Aedana", "Adybbuk", "Willow", "Gizmo", "Daisy", "Thumper", "Bortles", "Murphy", "Nerissa", "Mother", "Anerissa", "Agatha", "Ophelia",
+			"Helga", "Minerva", "Awanderer",
         };
 
         public static prices[] heroPrices = new prices[] {
@@ -96,7 +101,7 @@ namespace CQFollowerAutoclaimer
             "Arshen", "Rua", "Dorth", "Bylar", "Boor", "Bavah", "Hawking", "Kumu-San", "LiuCheng", "Hidoka", "Spyke", "Aoyuki", "Gaiabyte",
             "Dicemaster", "Luxurious", "Pokerface", "Taint", "Putrid", "Defile", "Mahatma", "Jade", "Edana", "Dybbuk", "Billy", "Sanqueen", "Cliodhna",
             "Buccaneerbeatrice", "Corsaircharles", "Maraudermagnus", "Frosty", "Raze", "Ruin", "Seethe", "Blossom", "Flint", "Orin", "Cupid", "Transient", "Maunder", "Thewanderer", "B-Day",
-            "Willow", "Gizmo", "Daisy", "Bortles", "Murphy", "Nerissa", "Mother",
+            "Willow", "Gizmo", "Daisy", "Bortles", "Murphy", "Nerissa", "Mother", "Agatha", "Ophelia", "Helga",
         };
 
         public static string[] cosmicCoinHeroes = new string[] {
@@ -109,7 +114,8 @@ namespace CQFollowerAutoclaimer
 
         public static string[] ascensionHeroes = new string[] {
             "Aalpha", "Aathos", "Arei", "Aauri", "Atr0n1x", "Ageum", "Ageror", "Bubbles", "Apontus", "Aatzar", "Arigr", "Adagda", "Abavah", "MasterLee",
-            "Ashygu", "Athert", "Alordkirk", "Aneptunius", "Ahosokawa", "Atakeda", "Ahirate", "Ahattori", "Guy", "Adefile", "Raiderrose", "Aseethe", "Aurora", "Thumper", "Convert to Prana", 
+            "Ashygu", "Athert", "Alordkirk", "Aneptunius", "Ahosokawa", "Atakeda", "Ahirate", "Ahattori", "Guy", "Adefile", "Raiderrose", "Aseethe", "Aurora",
+			"Thumper", "Anerissa", "Minerva", "Awanderer","Convert to Prana", 
         };
 
         public static Dictionary<int, string> ERROR = new Dictionary<int, string>()
